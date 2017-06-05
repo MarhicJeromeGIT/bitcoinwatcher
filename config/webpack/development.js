@@ -18,8 +18,8 @@ module.exports = merge(sharedConfig, {
   devServer: {
     clientLogLevel: 'none',
     https: settings.dev_server.https,
-    host: settings.dev_server.host,
-    port: settings.dev_server.port,
+    host: 'bitcoin-marhicjeromegit.c9users.io',
+    port: 8081,
     contentBase: output.path,
     publicPath: output.publicPath,
     compress: true,

@@ -25,8 +25,8 @@ development:
   <<: *default
 
   dev_server:
-    host: bitcoin-marhicjeromegit.c9users.io
-    port: 8080
+    host: 'bitcoin-marhicjeromegit.c9users.io'
+    port: 8081
 
 test:
   <<: *default
