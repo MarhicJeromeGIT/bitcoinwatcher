@@ -52,7 +52,7 @@ class BitcoinSocketComponent extends React.Component {
   onMessage(evt){
     //console.log("MESSAGE!");
     var data = JSON.parse(evt.data);
-    // That seems to happen sometime
+    // That seems to happen sometimes
     if (!data['x'] || !data['x']['out']){
       return;
     }

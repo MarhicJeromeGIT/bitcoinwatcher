@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
-export class StartStopButton extends React.Component {
+export default class StartStopButton extends React.Component {
   constructor(props){
     super(props);
   }
